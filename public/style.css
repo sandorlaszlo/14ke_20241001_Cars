@@ -1,3 +1,10 @@
 .active {
     color: red !important;
 }
+
+header {
+    background-image: url('images/banner.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

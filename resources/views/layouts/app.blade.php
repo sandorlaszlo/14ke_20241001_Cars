@@ -11,6 +11,7 @@
 <body>
     <div class="container">
         @include('layouts.nav')
+        <x-header></x-header>
         <h1 class="bg-dark text-light p-2">@yield('title')</h1>
 
         @yield('content')
