@@ -9,6 +9,6 @@
             </li>
             <li class="list-group-item"><b>Class:</b> {{ $car['class'] ?? 'N/A' }}</li>
         </ul>
-        <a href="#" class="btn btn-primary">Details</a>
+        <a href="/cars/{{$car['title']}}" class="btn btn-primary">Details</a>
     </div>
 </div>
